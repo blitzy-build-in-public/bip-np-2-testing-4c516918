@@ -1,2 +1,2 @@
-/** Prints "Welcome to Blitzy" to standard output. */
-console.log("Welcome to Blitzy");
+/** Prints "WELCOME TO BLITZY" to standard output. */
+console.log("WELCOME TO BLITZY");
