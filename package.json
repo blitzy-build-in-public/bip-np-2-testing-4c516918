@@ -1,0 +1,15 @@
+{
+  "name": "bip-np-2-testing-4c516918",
+  "version": "1.0.0",
+  "description": "Tutorial Node.js server exposing two greeting endpoints.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "5.3.0"
+  }
+}
