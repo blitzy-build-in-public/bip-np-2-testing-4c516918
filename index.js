@@ -7,4 +7,4 @@ const port = process.env.PORT || 3000;
 app.get("/", (req, res) => res.type("text/plain").send("Hello world"));
 app.get("/goodevening", (req, res) => res.type("text/plain").send("Good evening"));
 
-app.listen(port, () => console.log("WELCOME TO BLITZY"));
+app.listen(port).on("listening", () => console.log("WELCOME TO BLITZY"));
